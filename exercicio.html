@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Harmônico
+    </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Descubra o Campo Harmônico</h1>
+    </header>
+    <section>
+        <div>
+            <label for="notas" id="notas">Escolha um acorde: </label>
+                <select id="nota">
+                    <option value="Lá">A</option>
+                    <option value="Si">B</option>
+                    <option value="Dó">C</option>
+                    <option value="Ré">D</option>
+                    <option value="Mi">E</option>
+                    <option value="Fá">F</option>
+                    <option value="Sol">G</option>
+                </select>
+            <p>Sustenido(#): </p> <div>Não<input type="radio" name="area" id="nosus"checked> Sim<input type="radio" name="area" id="sus"></div>
+            <p> Maior<input type="radio" name="tipo" id="maior" checked>
+                Menor<input type="radio" name="tipo" id="menor"></p>
+            <p><input type="button" value="Verificar" onclick="buscarnotas()"></p>
+        </div>
+        <div>
+            <p id="res">... Preparando Campo Harmônico ...</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

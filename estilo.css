@@ -1,0 +1,36 @@
+body {
+    background: rgb(87, 86, 80);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+section {
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.574);  
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+p#res {
+    font-style: italic;
+    text-align: center;
+}
+
+input#nota {
+    padding: 1px;
+    width: 15px;
+}
