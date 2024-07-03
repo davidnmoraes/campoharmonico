@@ -30,7 +30,6 @@ p#res {
     text-align: center;
 }
 
-input#nota {
-    padding: 1px;
-    width: 15px;
+select#nota {
+    width: 200px;
 }
